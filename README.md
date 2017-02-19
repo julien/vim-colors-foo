@@ -2,13 +2,13 @@
 A dark and simple color scheme adated from [paramount](https://github.com/owickstrom/vim-colors-paramount), but with less features
 
 
-![image](screenshot/cpp.png)
+![image](screenshots/cpp.png)
 
-![image](screenshot/go.png)
+![image](screenshots/go.png)
 
-![image](screenshot/js.png)
+![image](screenshots/js.png)
 
-![image](screenshot/lua.png)
+![image](screenshots/lua.png)
 
-![image](screenshot/bash.png)
+![image](screenshots/bash.png)
 
