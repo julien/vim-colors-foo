@@ -1,5 +1,5 @@
 " Name:       foo.vim
-" Version:    0.0.2
+" Version:    0.0.3
 " Maintainer: github.com/julien
 " License:    The MIT License (MIT)
 "
@@ -14,12 +14,12 @@ set background=dark
 hi clear
 
 if exists('syntax on')
-    syntax reset
+  syntax reset
 endif
 
 let g:colors_name='foo'
 
-let s:black           = { 'gui': '#000000', 'cterm': '16' }
+let s:black           = { 'gui': '#000000', 'cterm': '0'   }
 let s:medium_gray     = { 'gui': '#767676', 'cterm': '243' }
 let s:actual_white    = { 'gui': '#FFFFFF', 'cterm': '231' }
 let s:subtle_black    = { 'gui': '#303030', 'cterm': '236' }
@@ -112,8 +112,8 @@ call s:h('LineNr',        {'fg': s:bg_subtle})
 call s:h('CursorLineNr',  {'fg': s:purple, 'bg': s:bg_very_subtle})
 call s:h('Question',      {'fg': s:medium_gray})
 
-call s:h('StatusLine',    {'bg': s:bg_very_subtle})
-call s:h('StatusLineNC',  {'bg': s:bg_very_subtle, 'fg': s:medium_gray})
+call s:h('StatusLine',    {'bg': s:black})
+call s:h('StatusLineNC',  {'bg': s:black, 'fg': s:purple})
 
 call s:h('VertSplit',     {'bg': s:bg, 'fg': s:bg_very_subtle, 'style': 'NONE'})
 
