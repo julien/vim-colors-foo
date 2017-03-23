@@ -1,5 +1,4 @@
 " Name:       foo.vim
-" Version:    0.0.3
 " Maintainer: github.com/julien
 " License:    The MIT License (MIT)
 "
